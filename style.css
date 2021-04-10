@@ -292,9 +292,9 @@ body {
   .a-section__arrow {
     display: none;
   }
-  .body{
-    width:100%;
-  }
+*{
+  border: 1px red dotted;
+}
   /*
   .header {
     display: flex;
