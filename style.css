@@ -359,7 +359,7 @@ body {
   font: normal 15px/15px "montserratmedium", arial, helvetica, sans-serif;
   color: #000;
   padding: 8px 6px;
-  transform: translate(1px, 2px)
+  transform: translateX(1px);
 }
 
 .quantity_minus,
@@ -449,7 +449,7 @@ body {
 }
 
 .c-section__description {
-  background-color: #FAE8E4;
+  background-color: #fae8e4;
   padding: 39px 48px 45px;
   margin-bottom: 36px;
 }
@@ -493,13 +493,7 @@ body {
   font: normal 15px/15px "montserratmedium", arial, helvetica, sans-serif;
   color: #000;
   padding: 8px 6px;
-}
-
-.quantity_minus,
-.quantity_plus,
-.quantity_items {
-  transform: translateY(-2px);
-  cursor: pointer;
+  transform: translate(-1px, -1px);
 }
 
 .c-section__button_add {
@@ -535,8 +529,6 @@ body {
   margin-right: 10px;
   transform: translateY(2px);
 }
-
-.c-section__arrow {}
 
 .c-section__other-items:hover,
 .c-section__arrow:hover {
@@ -696,7 +688,7 @@ body {
     right: 10%;
   }
 
-  .c-section__img>img {
+  .c-section__img > img {
     max-width: 90%;
   }
 
