@@ -15,11 +15,11 @@ body {
   opacity: 0;
 }
 
-#menu__toggle:checked~.menu__btn>span::before {
+#menu__toggle:checked~.menu__btn > span::before {
   transform: rotate(35deg) translate(4px, 3px);
 }
 
-#menu__toggle:checked~.menu__btn>span::after {
+#menu__toggle:checked~.menu__btn > span::after {
   transform: rotate(-35deg) translate(4px, -3px);
 }
 
@@ -36,8 +36,8 @@ body {
   background: #ededed;
 }
 
-.menu__btn>span::before,
-.menu__btn>span::after {
+.menu__btn > span::before,
+.menu__btn > span::after {
   display: block;
   position: absolute;
   width: 38%;
@@ -46,13 +46,13 @@ body {
   transition: 0.2s;
 }
 
-.menu__btn>span::before {
+.menu__btn > span::before {
   content: "";
   top: 40px;
   left: 30%;
 }
 
-.menu__btn>span::after {
+.menu__btn > span::after {
   content: "";
   top: 50px;
   left: 30%;
@@ -688,7 +688,7 @@ body {
     right: 10%;
   }
 
-  .c-section__img>img {
+  .c-section__img > img {
     max-width: 90%;
   }
 
@@ -812,7 +812,7 @@ body {
     width: 35%;
   }
 
-  .c-section__img>img {
+  .c-section__img > img {
     max-width: 90%;
   }
 
@@ -874,23 +874,23 @@ body {
     position: absolute;
   }
 
-  .menu__btn>span::before {
+  .menu__btn > span::before {
     content: "";
     top: 30px;
     left: 30%;
   }
 
-  .menu__btn>span::after {
+  .menu__btn > span::after {
     content: "";
     top: 38px;
     left: 30%;
   }
 
-  #menu__toggle:checked~.menu__btn>span::before {
+  #menu__toggle:checked~.menu__btn > span::before {
     transform: rotate(35deg) translate(4px, 2px);
   }
 
-  #menu__toggle:checked~.menu__btn>span::after {
+  #menu__toggle:checked~.menu__btn > span::after {
     transform: rotate(-35deg) translate(4px, -2px);
   }
 
@@ -1025,7 +1025,7 @@ body {
     width: 45%;
   }
 
-  .c-section__img>img {
+  .c-section__img > img {
     max-width: 90%;
   }
 
@@ -1116,23 +1116,23 @@ body {
     position: absolute;
   }
 
-  .menu__btn>span::before {
+  .menu__btn > span::before {
     content: "";
     top: 30px;
     left: 30%;
   }
 
-  .menu__btn>span::after {
+  .menu__btn > span::after {
     content: "";
     top: 37px;
     left: 30%;
   }
 
-  #menu__toggle:checked~.menu__btn>span::before {
+  #menu__toggle:checked~.menu__btn > span::before {
     transform: rotate(35deg) translate(4px, 2px);
   }
 
-  #menu__toggle:checked~.menu__btn>span::after {
+  #menu__toggle:checked~.menu__btn > span::after {
     transform: rotate(-35deg) translate(4px, -2px);
   }
 
@@ -1278,7 +1278,7 @@ body {
     width: 70%;
   }
 
-  .c-section__img>img {
+  .c-section__img > img {
     max-width: 99%;
   }
 
@@ -1470,7 +1470,7 @@ body {
     width: 82%;
   }
 
-  .c-section__img>img {
+  .c-section__img > img {
     max-width: 99%;
   }
 
