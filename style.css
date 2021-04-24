@@ -15,11 +15,11 @@ body {
   opacity: 0;
 }
 
-#menu__toggle:checked ~ .menu__btn>span::before {
+#menu__toggle:checked~.menu__btn>span::before {
   transform: rotate(35deg) translate(4px, 3px);
 }
 
-#menu__toggle:checked ~ .menu__btn>span::after {
+#menu__toggle:checked~.menu__btn>span::after {
   transform: rotate(-35deg) translate(4px, -3px);
 }
 
@@ -688,7 +688,7 @@ body {
     right: 10%;
   }
 
-  .c-section__img > img {
+  .c-section__img>img {
     max-width: 90%;
   }
 
@@ -812,7 +812,7 @@ body {
     width: 35%;
   }
 
-  .c-section__img > img {
+  .c-section__img>img {
     max-width: 90%;
   }
 
@@ -886,11 +886,11 @@ body {
     left: 30%;
   }
 
-  #menu__toggle:checked ~ .menu__btn>span::before {
+  #menu__toggle:checked~.menu__btn>span::before {
     transform: rotate(35deg) translate(4px, 2px);
-}
+  }
 
-  #menu__toggle:checked ~ .menu__btn>span::after {
+  #menu__toggle:checked~.menu__btn>span::after {
     transform: rotate(-35deg) translate(4px, -2px);
   }
 
@@ -1025,7 +1025,7 @@ body {
     width: 45%;
   }
 
-  .c-section__img > img {
+  .c-section__img>img {
     max-width: 90%;
   }
 
@@ -1124,15 +1124,15 @@ body {
 
   .menu__btn>span::after {
     content: "";
-    top: 38px;
+    top: 37px;
     left: 30%;
   }
 
-  #menu__toggle:checked ~ .menu__btn>span::before {
+  #menu__toggle:checked~.menu__btn>span::before {
     transform: rotate(35deg) translate(4px, 2px);
-}
+  }
 
-  #menu__toggle:checked ~ .menu__btn>span::after {
+  #menu__toggle:checked~.menu__btn>span::after {
     transform: rotate(-35deg) translate(4px, -2px);
   }
 
@@ -1278,7 +1278,7 @@ body {
     width: 70%;
   }
 
-  .c-section__img > img {
+  .c-section__img>img {
     max-width: 99%;
   }
 
@@ -1470,12 +1470,12 @@ body {
     width: 82%;
   }
 
-  .c-section__img > img {
+  .c-section__img>img {
     max-width: 99%;
   }
 
   .c-section__description {
-    padding: 25px 18px 28px 26px;
+    padding: 24px 18px 28px 26px;
     margin-bottom: 37px;
   }
 
@@ -1493,7 +1493,7 @@ body {
   .c-section__text {
     font: normal 9px/12px 'montserratregular', arial, helvetica, sans-serif;
     margin: 0;
-    margin-bottom: 22px;
+    margin-bottom: 23px;
     padding: 0;
     padding-right: 35px;
   }
@@ -1509,7 +1509,7 @@ body {
     height: 37px;
     font: normal 13px/13px "montserratmedium", arial, helvetica, sans-serif;
     padding: 11px 7px;
-    margin-right: 3px;
+    margin-right: 4px;
   }
 
   .c-section__other-items {
