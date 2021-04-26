@@ -15,14 +15,6 @@ body {
   opacity: 0;
 }
 
-#menu__toggle:checked~.menu__btn > span::before {
-  transform: rotate(35deg) translate(4px, 3px);
-}
-
-#menu__toggle:checked~.menu__btn > span::after {
-  transform: rotate(-35deg) translate(4px, -3px);
-}
-
 .menu__btn {
   display: flex;
   align-items: center;
@@ -56,6 +48,14 @@ body {
   content: "";
   top: 50px;
   left: 30%;
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  transform: rotate(35deg) translate(4px, 3px);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  transform: rotate(-35deg) translate(4px, -3px);
 }
 
 .header__color_black {
@@ -141,7 +141,7 @@ body {
 
 .a-section__button:hover {
   font-weight: bold;
-  background: #EDEDED;
+  background: #ededed;
 }
 
 .a-section__other-options {
@@ -149,7 +149,7 @@ body {
   font: normal 13px/15px 'montserratmedium', arial, helvetica, sans-serif;
   text-decoration: none;
   margin-right: 16px;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .a-section__vector {
@@ -385,7 +385,7 @@ body {
 
 .b-section__button_add:hover {
   font-weight: bold;
-  background: #EDEDED;
+  background: #ededed;
 }
 
 .b-section__other-items {
@@ -513,7 +513,7 @@ body {
 
 .c-section__button_add:hover {
   font-weight: bold;
-  background: #EDEDED;
+  background: #ededed;
 }
 
 .c-section__bottom {
@@ -549,16 +549,6 @@ body {
 }
 
 @media screen and (max-width: 1401px) and (min-width: 1050px) {
-  .header {
-    margin-bottom: 60px;
-  }
-
-  .header__color_black {
-    width: 32%;
-    background-color: #000;
-    height: 870px;
-  }
-
   .a-section__description {
     width: 85%;
     margin: auto;
@@ -886,11 +876,11 @@ body {
     left: 30%;
   }
 
-  #menu__toggle:checked~.menu__btn > span::before {
+  #menu__toggle:checked ~ .menu__btn > span::before {
     transform: rotate(35deg) translate(4px, 2px);
   }
 
-  #menu__toggle:checked~.menu__btn > span::after {
+  #menu__toggle:checked ~ .menu__btn > span::after {
     transform: rotate(-35deg) translate(4px, -2px);
   }
 
@@ -1069,7 +1059,6 @@ body {
 }
 
 @media (max-width: 766px) {
-
   .lang,
   .a-section__text,
   .social-media-block,
@@ -1128,11 +1117,11 @@ body {
     left: 30%;
   }
 
-  #menu__toggle:checked~.menu__btn > span::before {
+  #menu__toggle:checked ~ .menu__btn > span::before {
     transform: rotate(35deg) translate(4px, 2px);
   }
 
-  #menu__toggle:checked~.menu__btn > span::after {
+  #menu__toggle:checked ~ .menu__btn > span::after {
     transform: rotate(-35deg) translate(4px, -2px);
   }
 
