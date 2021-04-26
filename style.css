@@ -1334,7 +1334,7 @@ body {
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .a-section {
     position: relative;
     height: 526px;
@@ -1353,9 +1353,11 @@ body {
     transform: translate(0, -56px);
     z-index: 0;
   }
+
   .a-section__title {
     font: bold 50px/51px 'montserratbold', arial, helvetica, sans-serif;
   }
+
   .b-section {
     height: 597px;
   }
@@ -1527,7 +1529,7 @@ body {
   }
 }
 
-@media (max-width:374px) {
+@media (max-width: 374px) {
   .a-section {
     height: 498px;
   }
